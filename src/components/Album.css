@@ -1,0 +1,91 @@
+.album-cover {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+.album-announcement {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 300px;
+    letter-spacing: 5px;
+    background-color: var(--main-color);
+    color: var(--secondary-color)
+  }
+
+.album-container {
+    width: 300px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.album-container a {
+    position: absolute;
+    color: var(--main-color);
+    top: 30%;
+    margin-top: 10px;
+    border-radius: 25px;
+    letter-spacing: 2px;
+    padding: 5px 30px;
+}
+
+.album-container a:hover {
+    background-color: var(--secondary-color);
+    color: var(--main-color);
+    border-radius: 25px;
+    transition: 0.7s;
+}
+
+.marquee-container {
+    width: 300px; /* Adjust the width of the container */
+    overflow: hidden; /* Hide overflow to create the "window" effect */
+    display: flex; /* Arrange marquees side by side */
+    gap: 1rem;
+    position: relative;
+    cursor: pointer;
+  }
+
+.marquee-content {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-around;
+    min-width: 100%;
+    gap: 1rem;
+}
+
+h6 {
+    margin: 10px;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0)
+    }
+    to {
+        transform: translateX(calc(-100% - 1rem))
+    }
+}
+
+.scroll {
+    animation: scroll 50s linear infinite;
+}
+
+@media screen and (max-width: 500px) {
+    .album-announcement {
+        position: fixed;
+        bottom: 10px;
+        left: 0;
+        width: 100%;
+        letter-spacing: 5px;
+        background-color: var(--main-color);
+        color: var(--secondary-color);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+}

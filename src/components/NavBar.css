@@ -1,0 +1,19 @@
+.navlinks {
+    padding: 12px;
+    cursor: pointer;
+}
+
+.menu-toggle {
+    cursor: pointer;
+}
+
+.homelink {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin: 0;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    font-size: 20px;
+    letter-spacing: 15px;
+} 

@@ -1,0 +1,7 @@
+.sm-links {
+    padding: 12px;
+}
+
+.sm-links:hover {
+    opacity: 0.7;
+}

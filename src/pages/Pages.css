@@ -1,0 +1,204 @@
+.about-container,
+.videos-container {
+    max-width: 100vw;
+    height: 100vh;
+}
+
+.concerts-container {
+    max-width: 100vw;
+    width: 100vw;
+    height: 100vh;
+}
+
+.seated {
+    position: absolute;
+    top: 50%;
+}
+
+.about-text {
+    padding: 5%;
+}
+  
+.about-text img {
+    max-width: 400px; /* Set maximum width for the image */
+    width: 100%;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.contact-container > h3 {
+    text-transform: uppercase;
+}
+
+.about-text > p > span {
+    font-size: 1.5rem;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-grid {
+    padding: 75px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-auto-rows: minmax(250px, auto);
+    gap: 40px; /* Adjust the gap between items */
+    justify-items: center;
+    max-width: 100vw;
+  }
+
+.video-link {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-link > img {
+    object-fit: cover;
+    height: auto;
+    width: 100%;
+}
+
+.video-link > h6 {
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+
+.play-button {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.play-button svg {
+    font-size: 30px;
+    color: var(--main-color);
+}
+
+.play-button svg:hover {
+    color: var(--third-color);
+    transition: ease-in 0.2s;
+}
+
+.cancel-button {
+    position: absolute;
+    top: 5%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.cancel-button svg {
+    font-size: 26px;
+    color: var(--main-color);
+}
+
+.cancel-button:focus,
+.play-button:focus {
+    outline: none;
+}
+
+.cancel-button svg:hover {
+    color: var(--third-color);
+    transition: ease-in 0.2s;
+}
+
+.full-screen-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999; 
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .video-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 90%;
+  }
+  
+  .video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .tour-dates {
+    padding: 100px 100px 20px;
+  }
+
+  #seated-widget-container {
+    padding: 0 5%;
+  }
+
+  @media screen and (max-width: 800px) {
+
+    .about-text {
+        padding: 10%;
+    }
+
+    .video-grid {
+        padding: 15% 5%;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        max-width: 100vw;
+      }
+
+    .video-link > h6 {
+        text-transform: uppercase;
+        font-size: 1em;
+    }
+    
+    .play-button {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+    }
+    
+    .play-button svg {
+        font-size: 20px;
+        color: var(--main-color);
+    }
+      
+      .video-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        height: 40%;
+      }
+
+      .cancel-button {
+        position: absolute;
+        top: 8%;
+        left: 95%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+    }
+  }
