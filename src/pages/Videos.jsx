@@ -5,9 +5,9 @@ import './Pages.css'
 
 const Videos = () => {
   const videoData = [
-    {image: "/video-1.png", link:"https://www.youtube.com/embed/dPS2G_nKdTc", text: "Sleepless Nights & The World (smallsongs session)" },
-    {image: "/video-2.png", link:"https://www.youtube.com/embed/f9qh756ZXko", text: "Where Are You Running Now? (open folk bcn session)" },
-    {image: "/video-3.png", link:"https://www.youtube.com/embed/Tl9BcDPJc44", text: "Where Are You Running Now? (sofar lund)" }
+    {image: "/ivorytusk/video-1.png", link:"https://www.youtube.com/embed/dPS2G_nKdTc", text: "Sleepless Nights & The World (smallsongs session)" },
+    {image: "/ivorytusk/video-2.png", link:"https://www.youtube.com/embed/f9qh756ZXko", text: "Where Are You Running Now? (open folk bcn session)" },
+    {image: "/ivorytusk/video-3.png", link:"https://www.youtube.com/embed/Tl9BcDPJc44", text: "Where Are You Running Now? (sofar lund)" }
   ]
 
 
