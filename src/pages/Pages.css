@@ -20,7 +20,7 @@
 }
   
 .about-text img {
-    max-width: 400px; /* Set maximum width for the image */
+    max-width: 400px;
     width: 100%;
     float: left;
     margin-right: 20px;
