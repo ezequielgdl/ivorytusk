@@ -12,7 +12,7 @@ const NavBar = () => {
 
   return (
     <div className="navbar" style={{ position: 'relative' }}>
-      <div className="homelink"><Link to="/">IVORY TUSK</Link></div>
+      <div className="homelink"><Link to="/ivorytusk/">IVORY TUSK</Link></div>
       <div className="menu-toggle" onClick={toggleNavbar} style={{ position: 'absolute', right: -10, top: 0, zIndex: 2, backgroundColor: "var(--main-color)", color: "var(--secondary-color)", padding: "12px"}}>
         Menu
         <AnimatePresence>
@@ -31,17 +31,17 @@ const NavBar = () => {
                 zIndex: 2
               }}
             >
-              <Link to="/concerts">
+              <Link to="/ivorytusk/concerts/">
               <motion.div className="navlinks" style={{ opacity: 0, backgroundColor: "var(--third-color", color: "var(--secondary-color)" }} animate={{ opacity: 1 }} transition={{ delay: 0.7, duration: 0.7 }}>
                 Concerts
               </motion.div>
               </Link>
-              <Link to="/videos">
+              <Link to="/ivorytusk/videos">
               <motion.div className="navlinks" style={{ opacity: 0, backgroundColor: "var(--third-color)", color: "var(--secondary-color)" }} animate={{ opacity: 1 }} transition={{ delay: 0.5, duration: 0.7 }}>
                 Videos
               </motion.div>
               </Link>
-              <Link to="/about">
+              <Link to="/ivorytusk/about">
               <motion.div className="navlinks" style={{ opacity: 0, backgroundColor: "var(--third-color)", color: "var(--secondary-color)" }} animate={{ opacity: 1 }} transition={{ delay: 0.3, duration: 0.7 }}>
                 About
               </motion.div>
