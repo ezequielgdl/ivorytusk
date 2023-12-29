@@ -7,7 +7,7 @@ const About = () => {
     <div className="about-container">
       <NavBar></NavBar>
         <div className="about-text">
-          <img src="/ivorytusk_bw.jpg" alt="Ivory Tusk" />
+          <img src="./ivorytusk_bw.jpg" alt="Ivory Tusk" />
             <p><span>H</span>ailing from the vibrant streets of Buenos Aires and journeying across continents to finally call Barcelona home, Ezequiel de Lima embodies the wandering soul within music. His path was etched through melodies, leading him across the US, a traverse through Europe, and numerous stages along the way.</p>
             <p>His European voyage was peppered with standout moments, sharing stages with artists like Thomas Dybdahl, a catalyst that saw him grace the esteemed Blue Bird festival in Vienna. From Live at Heart in Sweden to intimate DIY home concerts across different European countries, Ezequiel orchestrated over 200 shows, meticulously charting his own musical course.</p>
             <p>For Ezequiel, music is more than a passion—it’s a vessel for profound self-reflection and a conduit for shared human experience. It’s an odyssey through the labyrinth of existential questions, a form of therapy to navigate the enigmatic nuances of existence.</p>
@@ -19,10 +19,10 @@ const About = () => {
               <h3>contact</h3>
               <a href="mailto:ivorytusk.mgmt@gmail.com">ivorytusk.mgmt@gmail.com</a>
               <h3>press kit</h3>
-              <a href="/IvoryTusk_Dossier.pdf" target='_blank'>dossier</a>
-              <a href="/ivorytusk_pressphoto.jpg" target='_blank'>press photo</a>
-              <a href="/thespacebetween.png" target='_blank'>album artwork</a>
-              <a href="/Rider_IvoryTusk_Banda.pdf" target='_blank'>rider (band)</a>
+              <a href="./IvoryTusk_Dossier.pdf" target='_blank'>dossier</a>
+              <a href="./ivorytusk_pressphoto.jpg" target='_blank'>press photo</a>
+              <a href="./thespacebetween.png" target='_blank'>album artwork</a>
+              <a href="./Rider_IvoryTusk_Banda.pdf" target='_blank'>rider (band)</a>
             </div>
         </div>
     </div>
