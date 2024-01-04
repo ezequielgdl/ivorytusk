@@ -10,23 +10,23 @@ import Videos from './pages/Videos.jsx'
 
 const router = createBrowserRouter([
   {
-    path: "/ivorytusk/",
+    path: "/",
     element: <App/>,
     children: [
       {
-        path: "/ivorytusk/",
+        path: "/",
         element: <Home/>
       },
       {
-        path: "/ivorytusk/about/",
+        path: "/about/",
         element: <About/>
       },
       {
-        path: "/ivorytusk/concerts/",
+        path: "/concerts/",
         element: <Concerts/>
       },
       {
-        path: "/ivorytusk/videos/",
+        path: "/videos/",
         element: <Videos/>
       },
     ]
