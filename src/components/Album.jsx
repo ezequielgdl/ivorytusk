@@ -28,7 +28,7 @@ const Album = () => {
         variants={containerVariants}
         >
             <a href="https://linktr.ee/ivorytusk" target="_blank">stream</a>
-            <img className="album-cover" src="/ivorytusk/thespacebetween.png" alt="The Space Between Album Cover" />
+            <img className="album-cover" src="/thespacebetween.png" alt="The Space Between Album Cover" />
         </motion.div>
         }
         </AnimatePresence>
