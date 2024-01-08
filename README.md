@@ -3,9 +3,9 @@
 Welcome to the repository for the Ivory Tusk website! 
 This project showcases the online presence of Ivory Tusk, highlighting his biography, streaming links, videos and tour dates.
 
-## Screenshots or Demos
+## Deployment
 
-[Include screenshots or GIFs showcasing the website's UI, design, or key functionalities.]
+The website has been deployed on Vercel with a custom domain: https://ivorytuskmusic.com / https://ivory-tusk-website-ezequiels-projects-4bf4ad5e.vercel.app/
 
 ## Features
 
